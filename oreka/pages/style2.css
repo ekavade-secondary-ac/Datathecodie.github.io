@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {	
+	width:360px;
+	height:1750px;
+	margin:auto;	
+}
+#LayoutDiv1 {
+	margin:auto;
+	width:360px;
+	height:1750px;
+}
+
+.header {
+	
+	width:360px;
+	height:400px;
+	margin:auto;
+}
+.logo {
+	margin:auto;
+	height:100px;
+	width: 250px;
+	background-image:url(../img/logo.jpg);
+}
+.nav {
+	
+	width:360px;
+	height:300px;	
+}
+.foot {
+
+	width: 100%;
+	display: block;
+}
+.rights {
+
+	width: 100%;
+	display: block;
+}
+
+.foot_nav {
+
+	width: 100%;
+	display: block;
+}
+
+.bye {
+	width: 100%;
+	display: block;
+}
+	.box {	
+	width: 100%;
+	display: block;
+}
+	.blank_box {	
+	
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;	
+}
+#LayoutDiv1 {
+	width: 100%;
+	display: block;	
+}
+
+.header {
+	
+	width: 100%;
+	display: block;
+}
+.logo {
+	
+	width: 100%;
+	display: block;
+}
+.nav {
+	
+	width: 100%;
+	display: block;
+}
+
+.foot {
+	width: 100%;
+	display: block;
+}
+.rights {
+	
+	width: 100%;
+	display: block;
+}
+
+.foot_nav {
+
+	width: 100%;
+	display: block;
+}
+
+.bye {	
+
+	width: 100%;
+	display: block;
+}
+
+.box {
+	width: 100%;
+	display: block;
+}
+.blank_box {
+	
+	width: 100%;
+	display: block;
+}
+
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width:100%;
+    max-width:100%;
+    height:790px;
+    margin:auto;
+	max-height:100%;
+}
+#LayoutDiv1 {
+	width: 100%;
+	height:790px;
+	max-width:100%;
+	margin:auto;
+	max-height:100%;
+	}
+
+.header {
+	width: 100%;
+	height:80px;
+	margin:auto;
+}
+.logo {
+	float: left;
+	height:80px;
+	width: 250px;	
+	background-image:url(../img/logo.jpg);
+}
+.nav {
+	margin:auto;
+	width: 1300px;
+	height:80px;	
+}
+
+.foot {
+	width:1350px;
+    height:70px;	
+}
+.rights {
+	width:300px;
+	height:30px;
+	float:left;
+	padding:10px;
+	text-align:center;	
+}
+
+.foot_nav {
+   width:520px;
+   height:30px;
+   float:right;
+   padding:10px;  
+}
+
+.bye {
+   width:470px;
+   height:30px;
+   float:left;
+   padding:10px;
+   text-align:center;  
+}
+.box {
+  width:400px;
+  height:400px;
+  background-color:#FC9;
+  margin:auto; 
+}
+.blank_box {
+   max-width:100%;
+   width:1400px;
+   height:180px;
+  
+   
+}
+
+}
