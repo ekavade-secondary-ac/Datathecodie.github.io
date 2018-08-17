@@ -135,7 +135,7 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .gray-bg {
@@ -262,7 +262,7 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area #mainmenu ul.nav.navbar-nav.primary-menu li.active a,
 .mainmenu-area #mainmenu ul.nav.navbar-nav.primary-menu li a:hover {
-    border-bottom: 2px solid #355213;
+    border-bottom: 2px solid #ffffff;
 }
 
 
@@ -437,6 +437,7 @@ a.scrolldown {
     background: linear-gradient(to right, #355213 0%, #355213 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355213', endColorstr='#355213', GradientType=1);
 }
+
 
 /*-- 9. Feature-Box --*/
 

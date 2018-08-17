@@ -51,6 +51,9 @@
     body {
         font-size: 12px;
     }
+    /*.text-center{
+        text-align: center;
+    }*/
     .page-title {
         margin-bottom: 30px;
     }
@@ -77,10 +80,10 @@
     }
     .mainmenu-area #mainmenu {
         padding: 0 30px;
-        background: #87b5ff;
-        background: -webkit-gradient(linear, left top, right top, from(#87b5ff), to(#99d4ef));
-        background: linear-gradient(to right, #87b5ff 0%, #99d4ef 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87b5ff', endColorstr='#99d4ef', GradientType=1);
+        background: #355213;
+        background: -webkit-gradient(linear, left top, right top, from(#355213), to(#355213));
+        background: linear-gradient(to right, #355213 0%, #355213 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355213', endColorstr='#355213', GradientType=1);
         text-align: center;
     }
     .mainmenu-area .navbar-toggle {
