@@ -577,7 +577,7 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 176px;
     width: 32.6%;
     float: left;
-    margin-left: 4px; }
+    margin-left: 8px; }
     .product-detail-wrap .thumb-nail .thumb-img:first-child {
       margin-left: 0; }
     @media screen and (max-width: 768px) {
