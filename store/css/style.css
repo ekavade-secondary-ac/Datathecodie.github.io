@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0; } }
 
 .colorlib-nav .top-menu {
-  padding: 15px 30px; }
+  padding: 2px 30px; }
   @media screen and (max-width: 768px) {
     .colorlib-nav .top-menu {
       padding: 10px 1em; } }
@@ -324,12 +324,12 @@ h1, h2, h3, h4, h5, h6, figure {
     #colorlib-hero .flexslider .slider-text {
       display: table;
       opacity: 0;
-      height: 650px;
+      height: 400px;
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
         vertical-align: middle;
-        height: 650px; }
+        height: 330px; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
@@ -339,8 +339,8 @@ h1, h2, h3, h4, h5, h6, figure {
           z-index: 0; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc:after {
             position: absolute;
-            top: -3em;
-            left: -3em;
+            top: -5em;
+            left: -3.5em;
             right: 0;
             bottom: 0;
             width: 310px;
@@ -469,7 +469,7 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 0; }
   #colorlib-featured-product .desc:after {
     position: absolute;
-    top: -1em;
+    top: -0.8em;
     left: -1.5em;
     right: 0;
     bottom: 0;
@@ -493,8 +493,8 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 40px; }
   .product-entry .product-img {
     display: block;
-    height: 350px;
-    margin-bottom: 20px;
+    height: 300px;
+    margin-bottom: 30px;
     position: relative; }
     .product-entry .product-img .tag {
       position: absolute;
