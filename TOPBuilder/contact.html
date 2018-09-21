@@ -75,7 +75,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+                    <a class="navbar-brand desk" href="index.html"><img src="images/logo.png" alt=""></a>
+                    <a class="navbar-brand moble" href="index.html" ><img src="images/logolas.png" style=" position: relative; top: -13px; left: -20px; " alt=""></a>
                 </div>
             </div>
 
@@ -221,9 +222,9 @@
                     <address>
                         <p>Have questions, comments or just want to say hello:</p>
                         <ul class="my_address">
-                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>info@iconprecision.com</a></li>
-                            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+ 91 93250 13041</a></li>
-                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Gate No. 1532, Sonawane Wasti,<br>Near Mahalaxmi Weigh Bridge, Chikhali.<br>Pune - 411062, Maharshtra, India</span></a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-envelope" aria-hidden="true"></i>info@iconprecision.com</a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-phone" aria-hidden="true"></i>+ 91 93250 13041</a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Gate No. 1532, Sonawane Wasti,<br>Near Mahalaxmi Weigh Bridge, Chikhali.<br>Pune - 411062, Maharshtra, India</span></a></li>
                         </ul>
                     </address>
                 </div>
@@ -259,5 +260,25 @@
     <script src="vendors/map/topbuilder_map.min.js"></script>
     <!-- Theme JS -->
     <script src="js/theme.js"></script>
+    <style>   
+        @media screen and (max-width : 1920px){
+          .moble{
+          /*visibility:hidden; PC */
+              display:none;
+          }
+        }
+         
+        @media screen and (max-width : 906px){
+         .desk{
+          /*visibility:hidden;*/
+             display:none;
+          }
+         .moble{
+          /*visibility:visible;*/
+             display: block;
+          }
+             
+        }
+    </style>
 </body>
 </html>
