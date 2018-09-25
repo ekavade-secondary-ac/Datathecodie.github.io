@@ -678,24 +678,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>&nbsp;
         
         <script src="js/theme.js"></script>
         
-       <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-          <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+     <!--   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
           <script type="text/javascript" src="slick/slick.min.js"></script>
             
         
         <script type="text/javascript">
             $(document).ready(function(){
-              $('.siema').slick({
-                slidesToShow: 6,
-              slidesToScroll: 1,
-              autoplay: true,
-              autoplaySpeed: 1000,
-                   variableWidth: false,
-                    infinite: true,
-                  adaptiveHeight: true,
-                  
-              });
-                 $('.slicky').slick({
+               $('.slicky').slick({
                     slidesToShow: 1,
                     slidesToScroll: 1,
                      centerMode: true,
@@ -706,8 +696,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>&nbsp;
                      dots:true,
                      
               });
+			  
+			  $('.siema').slick({
+                slidesToShow: 6,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1000,
+                   variableWidth: false,
+                    infinite: true,
+                  adaptiveHeight: true,
+                  
+              });
                 
-                $('.slicky1').slick();
+                
+               
             });
         </script>
             
