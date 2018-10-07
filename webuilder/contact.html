@@ -191,8 +191,8 @@
                     <div class="row footer_widgets_inner">
                         <div class="col-md-4 col-sm-6">
                             <aside class="f_widget about_widget">
-                                <img src="img/1who-we.png" alt="">
-                                <p>Indigenous Packaging Solutions<br><b>Global Technology at Local Cost</b></p>
+                                <img src="img/1who-we.png" alt="" style="border: 1px solid white">
+                                <p style="font-size: 18px;">Indigenous Packaging Solutions<br><b>Global Technology at Local Cost</b></p>
                                 <ul>
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -212,7 +212,7 @@
                                             <i class="fa fa-map-marker"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>Gate No. 15, Shelar Wasti, Dehu-Moshi Road, Chikali<br>Pune - 411 062</p>
+                                            <p style="font-size: 18px;">Gate No. 15, Shelar Wasti, Dehu-Moshi Road, Chikali, Pune - 411 062</p>
                                         </div>
                                     </div>
                                     <div class="media">
@@ -220,7 +220,7 @@
                                             <i class="fa fa-phone"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>+020 6630 9584</p>
+                                            <p style="font-size: 18px;">+020 6630 9584</p>
                                             <!--<p>(012) 3456789 </p>-->
                                         </div>
                                     </div>
@@ -229,7 +229,7 @@
                                             <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>contact@massystech.com</p>
+                                            <p style="font-size: 18px;">contact@massystech.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -291,14 +291,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>&nbsp;
             .main_slider_area .rev_slider .tp-revslider-mainul li .slotholder:before{
                 background: rgba(0, 0, 0, 0);
             }
-			input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
-				-webkit-appearance: none;
-				margin: 0;
-			}
-			 
-			input[type="number"] {
-				-moz-appearance: textfield;
-			}
         </style>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery-2.2.4.js"></script>
@@ -357,28 +349,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>&nbsp;
                 
                 $('.slicky1').slick();
             });
-			
-			jQuery(document).ready( function($) {
-
-				// Disable scroll when focused on a number input.
-				$('form').on('focus', 'input[type=number]', function(e) {
-					$(this).on('wheel', function(e) {
-						e.preventDefault();
-					});
-				});
-			 
-				// Restore scroll on number inputs.
-				$('form').on('blur', 'input[type=number]', function(e) {
-					$(this).off('wheel');
-				});
-			 
-				// Disable up and down keys.
-				$('form').on('keydown', 'input[type=number]', function(e) {
-					if ( e.which == 38 || e.which == 40 )
-						e.preventDefault();
-				});  
-				  
-			});
         </script>
             
             
