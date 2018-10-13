@@ -75,7 +75,7 @@
         <!--================Main Slider Area =================-->
         <section class="main_slider_area slider_2 desk">
             
-            <div class="slicky">
+            <div class="slicky1">
                     <center>
                     <div>
                         <img class="img-responsive" src='img/home-slider/slider-1.jpg'>
@@ -219,8 +219,8 @@
               position: relative;
             }
                  .img-responsive{
-                width:75%;
-                height:75%;
+                width:80%;
+                height:40%;
             }
             }
              
@@ -285,7 +285,14 @@
                      dots:true,   
               });
                 
-                $('.slicky1').slick();
+                $('.slicky1').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                      autoplay: true,
+                     autoplaySpeed: 1500,
+                     arrows:true,
+                     dots:true,   
+              });
             });
         </script>     
     </body>
