@@ -127,7 +127,7 @@
         
          <section class="main_slider_area slider_2 mobile whole">
             
-            <div class="slicky">
+            <div class="slicky1">
                 <center>  
                     <div>  <img class="img-responsive" src='img/home-slider/slider-1.jpg'> </div> 
                 </center>
@@ -237,6 +237,12 @@
                     position: relative;
                     top:100px;
                 }
+                
+                 .img-responsive{
+                width:auto;
+                height:auto;
+                     padding: 0 20px;
+            }
         }
            
         </style>
@@ -285,7 +291,15 @@
                      dots:true,   
               });
                 
-                $('.slicky1').slick();
+                $('.slicky1').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                      infinite: true,
+                     autoplaySpeed: 1500,
+                    autoplay: true,
+                     dots:true,   
+              });
+                
             });
         </script>     
     </body>
